@@ -1,4 +1,5 @@
 {
+
   "creativemodetab.aragorn_tab": "Aragorn Tab",
 
 
@@ -11,7 +12,27 @@
   "item.aragorn.tobernite": "Tobernite",
   "item.aragorn.raw_tobernite": "Raw Tobernite",
   "item.aragorn.autunite": "Autunite",
-  "item.aragorn.raw_autunite": "Raw Autunite"
+  "item.aragorn.raw_autunite": "Raw Autunite",
+
+  "item.aragorn.thorium": "Thorium",
+  "item.aragorn.raw_thorium": "Raw Thorium",
+  "item.aragorn.thorite": "Thorite",
+  "item.aragorn.raw_thorite": "Raw Thorite",
+  "item.aragorn.thorianite": "Thorianite",
+  "item.aragorn.raw_thorianite": "Raw Thorianite",
+  "item.aragorn.brannerite": "Brannerite",
+  "item.aragorn.raw_brannerite": "Raw Brannerite",
+
+
+
+  "block.aragorn.uranium_block": "Uranium Block",
+  "block.aragorn.uranium_block_ore": "Deepslate Uranium Ore",
+  "block.aragorn.penchblende_block": "PenchBlende Block",
+  "block.aragorn.penchblende_block_ore": "Deepslate Penchblende Ore",
+  "block.aragorn.uranophase_block": "Uranophase Block",
+  "block.aragorn.uranophase_block_ore": "Deepslate Uranophase Ore",
+  "block.aragorn.tobernite_block": "Tobernite Block",
+  "block.aragorn.tobernite_block_ore": "Deepslate Tobernite Ore"
 
 
 

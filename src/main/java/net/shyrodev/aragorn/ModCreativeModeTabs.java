@@ -1,4 +1,4 @@
-package net.shyrodev.aragorn.item;
+package net.shyrodev.aragorn;
 
 import net.minecraft.network.chat.Component;
 import net.minecraft.resources.ResourceLocation;
@@ -8,6 +8,7 @@ import net.minecraftforge.event.CreativeModeTabEvent;
 import net.minecraftforge.eventbus.api.SubscribeEvent;
 import net.minecraftforge.fml.common.Mod;
 import net.shyrodev.aragorn.AragornMod;
+import net.shyrodev.aragorn.item.ModItems;
 
 @Mod.EventBusSubscriber(modid = AragornMod.MOD_ID, bus = Mod.EventBusSubscriber.Bus.MOD)
 public class ModCreativeModeTabs

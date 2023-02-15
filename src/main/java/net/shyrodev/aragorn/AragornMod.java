@@ -1,8 +1,6 @@
 package net.shyrodev.aragorn;
 
 import com.mojang.logging.LogUtils;
-import net.minecraft.world.item.CreativeModeTab;
-import net.minecraft.world.item.CreativeModeTabs;
 import net.minecraftforge.api.distmarker.Dist;
 import net.minecraftforge.common.MinecraftForge;
 import net.minecraftforge.event.CreativeModeTabEvent;
@@ -12,7 +10,7 @@ import net.minecraftforge.fml.common.Mod;
 import net.minecraftforge.fml.event.lifecycle.FMLClientSetupEvent;
 import net.minecraftforge.fml.event.lifecycle.FMLCommonSetupEvent;
 import net.minecraftforge.fml.javafmlmod.FMLJavaModLoadingContext;
-import net.shyrodev.aragorn.item.ModCreativeModeTabs;
+import net.shyrodev.aragorn.block.ModBlocks;
 import net.shyrodev.aragorn.item.ModItems;
 import org.slf4j.Logger;
 
@@ -35,6 +33,8 @@ public class AragornMod
 
 
         ModItems.register(modEventBus);
+        ModBlocks.register(modEventBus);
+
 
 
 
@@ -54,26 +54,12 @@ public class AragornMod
     }
 
 
-
-
     private void addCreative(CreativeModeTabEvent.BuildContents event)
     {
-
-        if (event.getTab() == ModCreativeModeTabs.ARAGORN_TAB)
-        {
-            event.accept(ModItems.URANIUM);
-            event.accept(ModItems.RAW_URANIUM);
-            event.accept(ModItems.PENCHBLENDE);
-            event.accept(ModItems.RAW_PENCHBLENDE);
-            event.accept(ModItems.URANOPHASE);
-            event.accept(ModItems.RAW_URANOPHASE);
-            event.accept(ModItems.TOBERNITE);
-            event.accept(ModItems.RAW_TOBERNITE);
-            event.accept(ModItems.AUTUNITE);
-            event.accept(ModItems.RAW_AUTUNITE);
-        }
-
+        ModItems.addItem(event);
+        ModBlocks.addBlock(event);
     }
+
 
 
 
