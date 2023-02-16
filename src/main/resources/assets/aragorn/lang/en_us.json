@@ -13,7 +13,6 @@
   "item.aragorn.raw_tobernite": "Raw Tobernite",
   "item.aragorn.autunite": "Autunite",
   "item.aragorn.raw_autunite": "Raw Autunite",
-
   "item.aragorn.thorium": "Thorium",
   "item.aragorn.raw_thorium": "Raw Thorium",
   "item.aragorn.thorite": "Thorite",
@@ -24,15 +23,25 @@
   "item.aragorn.raw_brannerite": "Raw Brannerite",
 
 
-
-  "block.aragorn.uranium_block": "Uranium Block",
+  "block.aragorn.uranium_block": "Uranium Tank",
+  "block.aragorn.penchblende_block": "Penchblende Tank",
+  "block.aragorn.uranophase_block": "Uranophase Tank",
+  "block.aragorn.tobernite_block": "Tobernite Tank",
+  "block.aragorn.autunite_block": "Autunite Tank",
+  "block.aragorn.thorium_block": "Thorium Tank",
+  "block.aragorn.thorite_block": "Thorite Tank",
+  "block.aragorn.thorianite_block": "Thorianite Tank",
+  "block.aragorn.brannerite_block": "Brannerite Tank",
   "block.aragorn.uranium_block_ore": "Deepslate Uranium Ore",
-  "block.aragorn.penchblende_block": "PenchBlende Block",
   "block.aragorn.penchblende_block_ore": "Deepslate Penchblende Ore",
-  "block.aragorn.uranophase_block": "Uranophase Block",
   "block.aragorn.uranophase_block_ore": "Deepslate Uranophase Ore",
-  "block.aragorn.tobernite_block": "Tobernite Block",
-  "block.aragorn.tobernite_block_ore": "Deepslate Tobernite Ore"
+  "block.aragorn.tobernite_block_ore": "Deepslate Tobernite Ore",
+  "block.aragorn.autunite_block_ore": "Deepslate Autunite Ore",
+  "block.aragorn.thorium_block_ore": "Deepslate Thorium Ore",
+  "block.aragorn.thorite_block_ore": "Deepslate Thorite Ore",
+  "block.aragorn.thorianite_block_ore": "Deepslate Thorianite Ore",
+  "block.aragorn.brannerite_block_ore": "Deepslate Brannerite Ore"
+
 
 
 

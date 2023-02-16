@@ -1,0 +1,9 @@
+{
+  "variants":
+  {
+    "":
+    {
+      "model": "aragorn:block/ore/autunite_block_ore"
+    }
+  }
+}

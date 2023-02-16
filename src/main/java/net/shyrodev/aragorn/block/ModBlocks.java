@@ -65,6 +65,57 @@ public class ModBlocks
                     .sound(SoundType.DRIPSTONE_BLOCK), UniformInt.of(2,5)));
 
 
+    public static final RegistryObject<Block> AUTUNITE_BLOCK = registerBlock("autunite_block",
+            () -> new Block(BlockBehaviour.Properties.of(Material.METAL)
+                    .requiresCorrectToolForDrops().strength(1.5f)
+                    .sound(SoundType.METAL)));
+    public static final RegistryObject<Block>  AUTUNITE_BLOCK_ORE = registerBlock("autunite_block_ore",
+            () -> new DropExperienceBlock(BlockBehaviour.Properties.of(Material.STONE)
+                    .requiresCorrectToolForDrops().strength(1.5f)
+                    .sound(SoundType.DRIPSTONE_BLOCK), UniformInt.of(2,5)));
+
+
+    public static final RegistryObject<Block> THORIUM_BLOCK = registerBlock("thorium_block",
+            () -> new Block(BlockBehaviour.Properties.of(Material.METAL)
+                    .requiresCorrectToolForDrops().strength(1.5f)
+                    .sound(SoundType.METAL)));
+    public static final RegistryObject<Block>  THORIUM_BLOCK_ORE = registerBlock("thorium_block_ore",
+            () -> new DropExperienceBlock(BlockBehaviour.Properties.of(Material.STONE)
+                    .requiresCorrectToolForDrops().strength(1.5f)
+                    .sound(SoundType.DRIPSTONE_BLOCK), UniformInt.of(2,5)));
+
+
+    public static final RegistryObject<Block> THORITE_BLOCK = registerBlock("thorite_block",
+            () -> new Block(BlockBehaviour.Properties.of(Material.METAL)
+                    .requiresCorrectToolForDrops().strength(1.5f)
+                    .sound(SoundType.METAL)));
+    public static final RegistryObject<Block>  THORITE_BLOCK_ORE = registerBlock("thorite_block_ore",
+            () -> new DropExperienceBlock(BlockBehaviour.Properties.of(Material.STONE)
+                    .requiresCorrectToolForDrops().strength(1.5f)
+                    .sound(SoundType.DRIPSTONE_BLOCK), UniformInt.of(2,5)));
+
+
+    public static final RegistryObject<Block> THORIANITE_BLOCK = registerBlock("thorianite_block",
+            () -> new Block(BlockBehaviour.Properties.of(Material.METAL)
+                    .requiresCorrectToolForDrops().strength(1.5f)
+                    .sound(SoundType.METAL)));
+    public static final RegistryObject<Block>  THORIANITE_BLOCK_ORE = registerBlock("thorianite_block_ore",
+            () -> new DropExperienceBlock(BlockBehaviour.Properties.of(Material.STONE)
+                    .requiresCorrectToolForDrops().strength(1.5f)
+                    .sound(SoundType.DRIPSTONE_BLOCK), UniformInt.of(2,5)));
+
+
+    public static final RegistryObject<Block> BRANNERITE_BLOCK = registerBlock("brannerite_block",
+            () -> new Block(BlockBehaviour.Properties.of(Material.METAL)
+                    .requiresCorrectToolForDrops().strength(1.5f)
+                    .sound(SoundType.METAL)));
+    public static final RegistryObject<Block> BRANNERITE_BLOCK_ORE = registerBlock("brannerite_block_ore",
+            () -> new DropExperienceBlock(BlockBehaviour.Properties.of(Material.STONE)
+                    .requiresCorrectToolForDrops().strength(1.5f)
+                    .sound(SoundType.DRIPSTONE_BLOCK), UniformInt.of(2,5)));
+
+
+
 
 
 
@@ -83,11 +134,21 @@ public class ModBlocks
             event.accept(ModBlocks.PENCHBLENDE_BLOCK);
             event.accept(ModBlocks.URANOPHASE_BLOCK);
             event.accept(ModBlocks.TOBERNITE_BLOCK);
+            event.accept(ModBlocks.AUTUNITE_BLOCK);
+            event.accept(ModBlocks.THORIUM_BLOCK);
+            event.accept(ModBlocks.THORITE_BLOCK);
+            event.accept(ModBlocks.THORIANITE_BLOCK);
+            event.accept(ModBlocks.BRANNERITE_BLOCK);
 
             event.accept(ModBlocks.URANIUM_BLOCK_ORE);
             event.accept(ModBlocks.PENCHBLENDE_BLOCK_ORE);
             event.accept(ModBlocks.URANOPHASE_BLOCK_ORE);
             event.accept(ModBlocks.TOBERNITE_BLOCK_ORE);
+            event.accept(ModBlocks.AUTUNITE_BLOCK_ORE);
+            event.accept(ModBlocks.THORIUM_BLOCK_ORE);
+            event.accept(ModBlocks.THORITE_BLOCK_ORE);
+            event.accept(ModBlocks.THORIANITE_BLOCK_ORE);
+            event.accept(ModBlocks.BRANNERITE_BLOCK_ORE);
         }
     }
 
