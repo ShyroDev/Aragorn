@@ -1,0 +1,24 @@
+{
+  "replace": false,
+  "values": [
+    "aragorn:uranium_block",
+    "aragorn:penchblende_block",
+    "aragorn:uranophase_block",
+    "aragorn:tobernite_block",
+    "aragorn:autunite_block",
+    "aragorn:thorium_block",
+    "aragorn:thorite_block",
+    "aragorn:thorianite_block",
+    "aragorn:brannerite_block",
+
+    "aragorn:uranium_block_ore",
+    "aragorn:penchblende_block_ore",
+    "aragorn:uranophase_block_ore",
+    "aragorn:tobernite_block_ore",
+    "aragorn:autunite_block_ore",
+    "aragorn:thorium_block_ore",
+    "aragorn:thorite_block_ore",
+    "aragorn:thorianite_block_ore",
+    "aragorn:brannerite_block_ore"
+  ]
+}
