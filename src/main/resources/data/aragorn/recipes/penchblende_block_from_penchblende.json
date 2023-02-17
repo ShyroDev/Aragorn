@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:crafting_shaped",
+
+  "category": "building",
+
+  "key":
+  {
+    "#":
+    {
+      "item": "aragorn:penchblende"
+    }
+  },
+
+  "pattern":
+  [
+    "###",
+    "###",
+    "###"
+  ],
+
+  "result":
+  {
+    "item": "aragorn:penchblende_block"
+  }
+}

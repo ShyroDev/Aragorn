@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:smelting",
+
+  "cookingtime": 200,
+
+  "experience": 0.7,
+
+  "group": "uranium",
+
+  "ingredient":
+  {
+    "item": "aragorn:raw_uranium"
+  },
+
+  "result": "aragorn:uranium"
+}

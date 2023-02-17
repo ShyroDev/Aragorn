@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:crafting_shaped",
+
+  "category": "building",
+
+  "key":
+  {
+    "#":
+    {
+      "item": "aragorn:thorianite"
+    }
+  },
+
+  "pattern":
+  [
+    "###",
+    "###",
+    "###"
+  ],
+
+  "result":
+  {
+    "item": "aragorn:thorianite_block"
+  }
+}

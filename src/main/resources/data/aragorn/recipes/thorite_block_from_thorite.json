@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:crafting_shaped",
+
+  "category": "building",
+
+  "key":
+  {
+    "#":
+    {
+      "item": "aragorn:thorite"
+    }
+  },
+
+  "pattern":
+  [
+    "###",
+    "###",
+    "###"
+  ],
+
+  "result":
+  {
+    "item": "aragorn:thorite_block"
+  }
+}

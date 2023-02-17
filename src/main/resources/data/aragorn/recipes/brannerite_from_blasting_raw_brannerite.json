@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:blasting",
+
+  "cookingtime": 100,
+
+  "experience": 0.7,
+
+  "group": "autunite",
+
+  "ingredient":
+  {
+    "item": "aragorn:raw_autunite"
+  },
+
+  "result": "aragorn:autunite"
+}

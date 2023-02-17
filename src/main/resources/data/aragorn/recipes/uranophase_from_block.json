@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shapeless",
+
+  "category": "misc",
+
+  "ingredients":
+  [
+    {
+      "item": "aragorn:uranophase_block"
+    }
+  ],
+
+  "result":
+  {
+    "count": 9,
+    "item": "aragorn:uranophase"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shapeless",
+
+  "category": "misc",
+
+  "ingredients":
+  [
+    {
+      "item": "aragorn:thorite_block"
+    }
+  ],
+
+  "result":
+  {
+    "count": 9,
+    "item": "aragorn:thorite"
+  }
+
+}

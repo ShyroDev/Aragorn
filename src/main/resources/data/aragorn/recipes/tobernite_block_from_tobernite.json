@@ -1,0 +1,28 @@
+{
+  "type": "minecraft:crafting_shaped",
+
+  "category": "building",
+
+  "key":
+  {
+
+    "#":
+    {
+      "item": "aragorn:tobernite"
+    }
+
+  },
+
+  "pattern":
+  [
+    "###",
+    "###",
+    "###"
+  ],
+
+  "result":
+  {
+    "item": "aragorn:tobernite_block"
+  }
+
+}

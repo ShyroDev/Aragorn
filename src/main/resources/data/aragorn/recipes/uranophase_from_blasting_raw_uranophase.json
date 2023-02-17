@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:blasting",
+
+  "cookingtime": 100,
+
+  "experience": 0.7,
+
+  "group": "uranophase",
+
+  "ingredient":
+  {
+    "item": "aragorn:raw_uranophase"
+  },
+
+  "result": "aragorn:uranophase"
+}

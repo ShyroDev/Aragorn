@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:crafting_shaped",
+
+  "category": "building",
+
+  "key":
+  {
+    "#":
+    {
+      "item": "aragorn:brannerite"
+    }
+  },
+
+  "pattern":
+  [
+    "###",
+    "###",
+    "###"
+  ],
+
+  "result":
+  {
+    "item": "aragorn:brannerite_block"
+  }
+}

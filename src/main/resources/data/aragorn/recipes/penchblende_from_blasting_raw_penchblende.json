@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:blasting",
+
+  "cookingtime": 100,
+
+  "experience": 0.7,
+
+  "group": "penchblende",
+
+  "ingredient":
+  {
+    "item": "aragorn:raw_penchblende"
+  },
+
+  "result": "aragorn:penchblende"
+}

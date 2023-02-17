@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:smelting",
+
+  "cookingtime": 200,
+
+  "experience": 0.7,
+
+  "group": "thorianite",
+
+  "ingredient":
+  {
+    "item": "aragorn:raw_thorianite"
+  },
+
+  "result": "aragorn:thorianite"
+
+}

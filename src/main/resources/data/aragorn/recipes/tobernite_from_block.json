@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shapeless",
+
+  "category": "misc",
+
+  "ingredients":
+  [
+    {
+      "item": "aragorn:tobernite_block"
+    }
+  ],
+
+  "result":
+  {
+    "count": 9,
+    "item": "aragorn:tobernite"
+  }
+}
